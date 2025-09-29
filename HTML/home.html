@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>ABESEC GHAZIABAD</h1>
+        <nav>
+            <a href="about.html" target="i2">About Us</a>
+            <a href="register.html" target="i2">Register Here</a>
+            <a href="login.html" target="i2">Login</a>
+            <a href="changepassword.html" target="i2">Change Password</a>
+            <a href="profile.html" target="i2">Profile</a>
+            <a href="contact.html" target="i2">Contact Us</a>
+        </nav>
+        </header>
+        <div class="main">
+            <iframe name="i1" src="index.html" frameborder="0" id="i1"></iframe>
+            <iframe name="i2" src="" frameborder="0" id="i2"></iframe>
+        </div>
+        <footer>
+            <h3>&copy; 2025 ABESEC GHAZIABAD</h3>
+        </footer>
+        <style>
+            body{
+                font-family: sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                margin: 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background: rgb(20, 0, 37);
+            }
+            nav{
+                background: rgb(26, 26, 26);
+                display: flex;
+                width: 100%;
+                justify-content: space-evenly;
+                padding-block: 15px;
+            }
+            nav>a{
+                text-align: center;
+                width: 9rem;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 50px;
+                transition: .2s ease-out;
+                font-weight: 300;
+
+
+            }
+            nav>a:hover{
+                background: white;
+                color: black;
+            }
+            header>h1{
+                color: white;
+            }
+            main{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+            }
+            #i1{
+                width: 30%;
+                background-color: rgb(76, 76, 76);
+                height: 80vh;
+            }
+            #i2{
+                width: 69%;
+                background-color: rgb(170, 170, 170);
+                height: 80vh;
+            }
+            footer{
+                width: 100%;
+                background-color: black;
+                text-align: center;
+                color: white;
+                padding-block: 10px;
+            }
+        </style>
+</body>
+</html>
